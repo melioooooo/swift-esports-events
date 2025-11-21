@@ -67,10 +67,7 @@ export const Hero: React.FC = () => {
         </div>
       </div>
 
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce text-gray-500">
-        <div className="w-[1px] h-16 bg-gradient-to-b from-transparent via-swift-coral to-transparent"></div>
-      </div>
+      
     </section>
   );
 };
