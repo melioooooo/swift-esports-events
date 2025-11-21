@@ -1,9 +1,8 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// Configuration pour le déploiement sur GitHub Pages
-// base: './' assure que les chemins sont relatifs, ce qui évite les erreurs 404
+// Configuration pour le déploiement sur GitHub Pages (site de projet)
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  base: '/swift-esports-events/',
 });

@@ -20,22 +20,6 @@ export const About: React.FC = () => {
               le meilleur des deux mondes. Notre mission est de faire vivre des émotions fortes aux joueurs 
               amateurs et semi-pro.
             </p>
-            <div className="pt-4">
-              <div className="flex gap-8">
-                <div>
-                  <span className="block text-4xl font-bold text-white font-heading">50+</span>
-                  <span className="text-sm text-gray-500 uppercase tracking-wider">Tournois</span>
-                </div>
-                <div>
-                  <span className="block text-4xl font-bold text-white font-heading">10k€</span>
-                  <span className="text-sm text-gray-500 uppercase tracking-wider">Cashprize Reversé</span>
-                </div>
-                <div>
-                  <span className="block text-4xl font-bold text-white font-heading">2k+</span>
-                  <span className="text-sm text-gray-500 uppercase tracking-wider">Joueurs</span>
-                </div>
-              </div>
-            </div>
           </div>
         </Reveal>
 
